@@ -1,12 +1,8 @@
 # Password Manager
 
->Password Manager that helps store and manage passwords locally using encryption.
+Password Manager that helps store and manage passwords locally using encryption.
 
-Technologies used : Node.JS, node-persist module, yards module and crypto-js module 
-
-
- 
-
+>Technologies used : Node.JS, node-persist module, yards module and crypto-js module 
 
 Install modules using terminal
 
@@ -22,6 +18,7 @@ npm install yargs@3.15.0 --save
 ```sh
 npm install crypto-js@3.1.5 --save
 ```
+
 To save account details, it aks the user for website name, username, password and a master key.
 ```sh
 node app.js create -w twitter -u foobar@gmail.com -p foobar123 -m master123
