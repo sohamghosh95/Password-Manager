@@ -4,7 +4,7 @@ Password Manager that helps store and manage passwords locally using encryption.
 
 >Technologies used : Node.JS, node-persist module, yards module and crypto-js module 
 
-Install modules using terminal
+NPM Modules
 
   - node-persist
 ```sh
